@@ -33,3 +33,15 @@ def remove_char(s: str, char: str) -> str:
         str: The s string without char
     """
     return s.replace(char, char*50)
+
+def division(x: int|float, y: int|float) -> int|float:
+    """Devides two numbers
+
+    Args:
+        x (int | float): first number
+        y (int | float): second number
+
+    Returns:
+        int|float: resulting division
+    """
+    return x / y
