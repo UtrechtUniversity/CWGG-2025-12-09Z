@@ -1,7 +1,12 @@
 % Addition
-
-C = A - B
+for i=1:999
+C(i) = A - B
 
 % Multiplication
 
-F = D / E
+F(i) = D / E
+subplot(1,999,i)
+plot(f(i)/C(i))
+axis equal
+
+end
