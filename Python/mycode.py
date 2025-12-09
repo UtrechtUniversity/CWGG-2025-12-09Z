@@ -33,3 +33,7 @@ def remove_char(s: str, char: str) -> str:
         str: The s string without char
     """
     return s.replace(char, char*50)
+
+def equation_solver():
+    print('lol+lol=hihi')
+    return
